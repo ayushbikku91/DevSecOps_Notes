@@ -1,0 +1,15 @@
+Example: Requiring successful dependent jobs
+jobs:
+  job1:
+  job2:
+    needs: job1
+  job3:
+    needs: [job1, job2]
+In this example, job1 must complete successfully before job2 begins, and job3 waits for both job1 and job2 to complete.
+
+#########
+on:
+  push:
+    branches:
+      - main
+
