@@ -14,4 +14,11 @@ curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetok
 
 Note: The value to use for K3S_TOKEN is stored at /var/lib/rancher/k3s/server/node-token on your server node.
 
+If you are getting an error ! 
+
+![image](https://github.com/ayushbikku91/DevSecOps_Notes/assets/54761726/7aa8d057-3f9c-412c-beda-19264f609877)
+
+Use below command then try again. 
+
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 
