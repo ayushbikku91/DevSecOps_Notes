@@ -5,3 +5,4 @@ Controller pattern A controller tracks at least one Kubernetes resource type. Th
 
 
 
+![image](https://github.com/ayushbikku91/DevSecOps_Notes/assets/54761726/08000036-436e-4d11-8a21-d579f168b8d1)
